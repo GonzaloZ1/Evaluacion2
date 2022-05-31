@@ -25,7 +25,7 @@ namespace LibreriaEvaluacion.DAL
             return PrestamoDTO.RemoveById(datos, indice);
         }
 
-        public List<PrestamoDTO> List()
+        public List<PrestamoDTO> Listar()
         {
             return PrestamoDTO.List();
         }

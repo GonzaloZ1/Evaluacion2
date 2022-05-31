@@ -66,7 +66,7 @@ static bool Menu(string nombreAlumno)
 static void Listar()
 {
     PrestamoDAL prestamoDal = new PrestamoDAL();
-    List<PrestamoDTO> prestamos = prestamoDal.List();
+    List<PrestamoDTO> prestamos = prestamoDal.Listar();
 
     foreach (PrestamoDTO prestamo  in prestamos)
     {
