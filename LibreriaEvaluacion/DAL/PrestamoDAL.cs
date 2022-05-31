@@ -42,5 +42,15 @@ namespace LibreriaEvaluacion.DAL
 
             return null;
         }
+
+        public bool EliminarPorIndice(int indice)
+        {
+            return false;
+        }
+        
+        public int BuscarPorIdSimple(int id)
+        {
+            return id;
+        }
     }
 }
